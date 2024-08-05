@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Carrizo -  Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="profile-image-container">
+            <img src="imgs/fotoPerfil.jpeg" alt="Foto de Elias" class="profile-image">
+        </div>
+        <h1>Elias Carrizo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#redes-sociales">Redes Sociales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a mi portfolio</h2>
+        <p>Hola, soy Elias, un desarrollador frontend de Argentina.</p>
+    </section>
+
+    <section id="redes-sociales">
+        <h2>¡Contactame en mis redes sociales!</h2>
+        <div class="social-icons">
+            <a href="https://linkedin.com" target="_blank"><img src="imgs/linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://facebook.com" target="_blank"><img src="imgs/fblogo.png" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="imgs/logoInstragram.png" alt="Twitter"></a>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me apasiona la programación y he trabajado en varios proyectos de desarrollo web...</p>
+    </section>
+
+    <section id="proyectos">
+
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Barbería Alura</h3>
+            <p>
+                Una pagina web responsive y profesional para una barbería ficticia creada como un proyecto de integración 
+                para el curso "Desarrollo Front-End" de Alura Latam, con el objetivo 
+                de poner en práctica todos los conocimientos teóricos adquiridos y demostrar una comprensión sólida de los conceptos básicos de HTML5 y CSS3.
+            </p>
+            <a href="https://asp3r.github.io/Barberia-Alura/" target="_blank">Visitar pagina web</a>
+        </div>
+        <div class="proyecto">
+            <h3>Number Guesser</h3>
+            <p>
+                Un juego web sencillo donde el usuario tiene que adivinar el número generado por la máquina, usando las pistas que la misma le proporciona luego de cada intento fallido. 
+                Hecho con funcionalidades básicas de HTML5 y CSS3, así como JavaScript para hacer el sitio interactivo y realizar las operaciones logicas necesarias para el correcto funcionamiento del juego.<br>
+                ADVERTENCIA: Esta pagina web aun no es responsive, debido a que actualmente esta en construccion. Por lo cual, su visionado en dispositivos moviles y tabletas puede generar errores visuales.
+            </p>
+            <a href="https://asp3r.github.io/Number-guesser/" target="_blank">Visitar pagina web</a>
+        </div>
+         
+    </section>
+    
+
+    <section id="contacto">
+        <h2>Consular sobre mis servicios</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Elias. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
