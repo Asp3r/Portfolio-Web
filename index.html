@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elias Carrizo -  Portfolio</title>
+    <title>Elias Carrizo - Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
     <link rel="manifest" href="imgs/site.webmanifest">
-
 </head>
 <body>
     <header>
@@ -23,6 +21,8 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#redes-sociales">Redes Sociales</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -35,22 +35,43 @@
         <p>Hola, soy Elias, un desarrollador frontend de Argentina.</p>
     </section>
 
-    <section id="redes-sociales">
-        <h2>¡Contactame en mis redes sociales!</h2>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/elias-carrizo/" target="_blank"><img src="imgs/linkedin-logo.png" alt="LinkedIn"></a>
-            <a href="https://www.facebook.com/eli.r.71/" target="_blank"><img src="imgs/fblogo.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/eli4sf/" target="_blank"><img src="imgs/logoInstragram.png" alt="Twitter"></a>
-        </div>
-    </section>
-
     <section id="sobre-mi">
         <h2>Sobre Mí</h2>
         <p>Me apasiona la programación y he trabajado en varios proyectos de desarrollo web...</p>
     </section>
 
-    <section id="proyectos">
+    <section id="formacion">
+        <h2>Formación</h2>
+        <ul>
+            <li><strong>Licenciatura en Informática</strong> - Universidad de Buenos Aires</li>
+            <li><strong>Curso de Desarrollo Front-End</strong> - Alura Latam</li>
+            <li><strong>Curso de JavaScript Avanzado</strong> - Codecademy</li>
+            <!-- Añade más cursos o formaciones aquí -->
+        </ul>
+    </section>
 
+    <section id="servicios">
+        <h2>Servicios de Desarrollo Web</h2>
+        <p>
+            ¿Necesitas una página web profesional y atractiva? ¡Estoy aquí para ayudarte! 
+            Como desarrollador web freelance con amplia experiencia en el sector, ofrezco mis servicios para diseñar y desarrollar páginas web que se adapten a tus necesidades específicas.
+        </p>
+        <p>
+            Ofrezco precios accesibles y competitivos, con tarifas regionales en pesos argentinos para contratadores locales. 
+            Mi trabajo es rápido y eficiente, garantizando entregas en plazos ajustados sin comprometer la calidad. 
+            Tengo un profundo conocimiento en HTML5, CSS3 y JavaScript, y he trabajado en diversos proyectos que demuestran mi habilidad para crear soluciones web efectivas y atractivas.
+        </p>
+        <p>
+            Si necesitas una pagina web profesional y responsive, seas un individuo, grupo u organizacion, puedo ayudarte a llevar tu visión a la realidad. Mi enfoque es siempre mantener una comunicación abierta y clara, 
+            asegurando que cada proyecto se desarrolle según tus expectativas y necesidades.
+        </p>
+        <p>
+            Contáctame hoy para discutir cómo puedo ayudarte a mejorar tu presencia en línea y alcanzar tus objetivos comerciales con una página web de alta calidad.
+        </p>
+        <a href="#redes-sociales" class="cta-button">¡Contáctame!</a>
+    </section>
+
+    <section id="proyectos">
         <h2>Proyectos previos</h2>
         <div class="proyecto">
             <h3>Barbería Alura</h3>
@@ -70,12 +91,19 @@
             </p>
             <a href="https://asp3r.github.io/Number-guesser/" target="_blank">Visitar pagina web</a>
         </div>
-         
     </section>
-    
+
+    <section id="redes-sociales">
+        <h2>¡Contactame en mis redes sociales!</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/elias-carrizo/" target="_blank"><img src="imgs/linkedin-logo.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/eli.r.71/" target="_blank"><img src="imgs/fblogo.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/eli4sf/" target="_blank"><img src="imgs/logoInstragram.png" alt="Twitter"></a>
+        </div>
+    </section>
 
     <section id="contacto">
-        <h2>Consular sobre mis servicios</h2>
+        <h2>Enviame tu consulta</h2>
         <form>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
